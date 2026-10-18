@@ -52,7 +52,7 @@ export default function ZQLogo({ className = "w-10 h-10", showText = true }) {
             MUHAMMAD <span className="text-[#E2E4E9]">ZEESHAN</span>
           </span>
           <span className="text-[9px] font-mono text-[#9A9490] tracking-widest uppercase">
-            CEO • ZQ DIGITAL
+            GRAPHIC DESIGNER • PREPRESS EXPERT
           </span>
         </div>
       )}

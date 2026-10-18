@@ -6,7 +6,7 @@ const aboutCards = [
   {
     icon: Briefcase,
     title: "15+ Years Leadership",
-    description: "Founder & CEO leading commercial print production, prepress, and visual brand strategy."
+    description: "Expert leading commercial print production, prepress, and visual brand strategy."
   },
   {
     icon: Cpu,
@@ -65,7 +65,7 @@ function TypewriterHeading({ text, speed = 70, deleteSpeed = 35, delay = 2200 })
 }
 
 export default function About() {
-  const headingText = "Muhammad Zeeshan — CEO & Creative Lead at ZQ-digital";
+  const headingText = "Muhammad Zeeshan — Graphic Designer & Prepress Expert";
 
   return (
     <section id="about" className="py-24 sm:py-32 relative bg-transparent bg-noise overflow-hidden">
@@ -79,7 +79,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-xs sm:text-sm font-semibold tracking-widest text-[#E2E4E9] uppercase block mb-3"
           >
-            Founder &amp; Creative Leadership
+            About Me
           </motion.span>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ export default function About() {
             transition={{ delay: 0.1 }}
             className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#F5F1EC] tracking-tight"
           >
-            About The CEO
+            Graphic Designer &amp; Prepress Expert
           </motion.h2>
           <div className="w-16 h-1 bg-[#383230] mx-auto mt-4 rounded-full shadow-glow-gray" />
         </div>
@@ -108,7 +108,7 @@ export default function About() {
               <div className="relative rounded-[20px] overflow-hidden aspect-[4/5] bg-gradient-to-br from-[#1A1514] to-[#0A0908] flex items-center justify-center p-6 text-center">
                 <img 
                   src="/projects/profile.png" 
-                  alt="Muhammad Zeeshan - CEO of ZQ-digital" 
+                  alt="Muhammad Zeeshan - Graphic Designer & Prepress Expert" 
                   className="w-full h-full object-cover object-center rounded-xl shadow-lg"
                   onError={(e) => {
                     e.target.onerror = null;
@@ -122,14 +122,14 @@ export default function About() {
                     MZ
                   </div>
                   <h3 className="font-heading font-bold text-xl mb-1 text-[#F5F1EC]">Muhammad Zeeshan</h3>
-                  <p className="text-xs text-[#E2E4E9]">CEO &amp; Founder of ZQ-digital</p>
+                  <p className="text-xs text-[#E2E4E9]">Graphic Designer &amp; Prepress Expert</p>
                 </div>
 
-                {/* CEO Badge */}
+                {/* Role Badge */}
                 <div className="absolute bottom-4 left-4 right-4 bg-[#14100F]/95 backdrop-blur-md rounded-xl p-3.5 shadow-lg flex items-center justify-between border border-[rgba(245,241,236,0.1)]">
                   <div className="text-left">
                     <span className="font-heading font-bold text-sm text-[#F5F1EC] block leading-tight">Muhammad Zeeshan</span>
-                    <span className="text-xs font-semibold text-[#E2E4E9]">CEO &amp; Founder of ZQ-digital</span>
+                    <span className="text-xs font-semibold text-[#E2E4E9]">Graphic Designer &amp; Prepress Expert</span>
                   </div>
                   <div className="px-3 py-1 rounded-md bg-[#383230] text-[#E2E4E9] text-[10px] font-mono font-bold uppercase tracking-wider border border-[rgba(245,241,236,0.1)]">
                     15+ Yrs Exp
@@ -151,7 +151,7 @@ export default function About() {
             <TypewriterHeading text={headingText} />
 
             <p className="text-base sm:text-lg text-[#9A9490] font-normal leading-relaxed mb-8">
-              As the CEO and Founder of <strong className="text-[#F5F1EC]">ZQ-digital</strong>, I, <strong className="text-[#E2E4E9]">Muhammad Zeeshan</strong>, bring over 15 years of hands-on industry leadership in brand identity, commercial print production, packaging, and outdoor advertising. My studio specializes in turning complex client ideas into crisp, high-converting visual systems using Adobe Photoshop, CorelDRAW, and InPage.
+              As a dedicated <strong className="text-[#F5F1EC]">Graphic Designer &amp; Prepress Expert</strong>, I, <strong className="text-[#E2E4E9]">Muhammad Zeeshan</strong>, bring over 15 years of hands-on industry leadership in brand identity, commercial print production, packaging, and outdoor advertising. My studio specializes in turning complex client ideas into crisp, high-converting visual systems using Adobe Photoshop, CorelDRAW, and InPage.
             </p>
 
             {/* 4 Cards Grid */}

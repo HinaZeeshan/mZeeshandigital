@@ -78,7 +78,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1A1514] border border-[rgba(245,241,236,0.1)] text-[#E2E4E9] text-xs sm:text-sm font-semibold mb-6 shadow-soft"
             >
               <Sparkles className="w-4 h-4 text-[#E2E4E9] animate-pulse" />
-              <span>CEO of ZQ-digital | CorelDRAW & Photoshop Specialist</span>
+              <span>Graphic Designer &amp; Prepress Expert | CorelDRAW &amp; Photoshop Specialist</span>
             </motion.div>
 
             {/* Typewriter Heading */}

@@ -38,7 +38,7 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#9A9490]/60 gap-4">
-          <p>© {new Date().getFullYear()} ZQ Digital Studio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Muhammad Zeeshan. All rights reserved.</p>
           <p>Direct Contact: <a href="mailto:mzeeshanq446@gmail.com" className="text-[#E2E4E9] hover:underline">mzeeshanq446@gmail.com</a></p>
         </div>
       </div>
